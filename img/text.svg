@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="36px"
+   height="36px"
+   viewBox="0 0 36 36"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg14"
+   sodipodi:docname="add-text-svgrepo-com.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="17.5"
+     inkscape:cx="17.2"
+     inkscape:cy="18"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <title
+     id="title2">add-text-line</title>
+  <path
+     class="clr-i-outline clr-i-outline-path-1"
+     d="M31,21H13a1,1,0,0,0,0,2H31a1,1,0,0,0,0-2Z"
+     id="path4"
+     style="fill:#41414e;fill-opacity:1" />
+  <path
+     class="clr-i-outline clr-i-outline-path-2"
+     d="M12,16a1,1,0,0,0,1,1H31a1,1,0,0,0,0-2H13A1,1,0,0,0,12,16Z"
+     id="path6"
+     style="fill:#41414e;fill-opacity:1" />
+  <path
+     class="clr-i-outline clr-i-outline-path-3"
+     d="M27,27H13a1,1,0,0,0,0,2H27a1,1,0,0,0,0-2Z"
+     id="path8"
+     style="fill:#41414e;fill-opacity:1" />
+  <path
+     class="clr-i-outline clr-i-outline-path-4"
+     d="M15.89,9a1,1,0,0,0-1-1H10V3.21a1,1,0,0,0-2,0V8H2.89a1,1,0,0,0,0,2H8v5.21a1,1,0,0,0,2,0V10h4.89A1,1,0,0,0,15.89,9Z"
+     id="path10"
+     style="fill:#41414e;fill-opacity:1" />
+  <rect
+     x="0"
+     y="0"
+     width="36"
+     height="36"
+     fill-opacity="0"
+     id="rect12" />
+  <metadata
+     id="metadata835">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>add-text-line</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

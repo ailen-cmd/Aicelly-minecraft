@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Sf-pro;
+    src: url(../fonts/SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sf-pro-Bold;
+    src: url(../fonts/SFProDisplay-Bold.ttf);
+}
+
+.whatis {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    background-color: #21212e
+}
+
+.whatis__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.websvg {
+    width: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+    border-radius: 15px;
+}
+
+.whatis__text {
+    max-width: 45%;
+    margin-top: 100px;
+}
+
+.whatis__text2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.whatis__p {
+    margin-left: 75px;
+    font-size: 25px;
+    font-family: Sf-pro;
+}
+
+.whatis__pf {
+    font-size: 32px;
+    font-family: Sf-pro-Bold;
+}
+
+.whatis__h1 {
+    font-family: Sf-pro-Bold;
+}
+
+.whatis2 {
+    padding-bottom: 75px;
+    display: flex;
+    background-color: #D8DEE9;
+}
+
+.whati3 {
+    padding-bottom: 75px;
+    display: flex;
+}
+
+.whatis__tex2 {
+    max-width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.whatis__conten2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.whati4 {
+    padding-bottom: 75px;
+    display: flex;
+    background-color: #11111e;
+}
+
+.whatis__block {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatis__list {
+    margin: 0;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 75px;
+}
+
+.whatis__listsmall {
+    margin: 0;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.whatis__content3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.whatis__buttonh {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button__dif {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.separator {
+    padding-bottom: 175px;
+    border-bottom: #11111e 4px solid;
+}
+
+.whatis__what {
+    background-color: #e5e9fe;
+    box-shadow: 0 0 10px #e5e9fe;
+}
+
+.whatis__what:hover {
+    background-color: #e5e9fe;
+    box-shadow: 0 0 15px #eceff4;
+}
+
+.whatis__what:active {
+    background-color: #D8DEE9;
+    box-shadow: 0 0 5px #D8DEE9;
+}
+
+.whatis__what:focus {
+    background-color: #e5e9fe;
+    box-shadow: 0 0 10px #e5e9fe;
+}
+
+.ots {
+    margin-top: 75px;
+}
+
+.otsb {
+    margin-bottom: 75px;
+}
+
+.whatisl:hover {
+    text-decoration: none;
+}
+
+.whatisl:active {
+    text-decoration: none;
+}
+
+.whatis__textil {
+    max-width: 45%;
+}
+
+.whatis__nmt {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.whatis__tex3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.what__share {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.whatis__ex {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.textborder {
+    background-color: #11111ec5;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.textborderw {
+    background-color: #e5e9fe65;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.pad {
+    padding: 15px;
+}
+
+.wider {
+    width: 600px;
+}
+
+.po0 {
+    margin-right: 0;
+}
+
+.imag {
+    background-image: url(../img/mi.png);
+}
+
+@media (max-width: 1600px) {
+        .whatis__conten2, .whatis__content, .what__share, .whatis__ex {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+}
+
+@media (max-width: 1600px) {
+        .wider, .websvg, .whatis__p, .input__right, .whatis__what {
+            margin: 0;
+            margin-top: 50px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .whatis__text {
+        max-width: 100%;
+}
+}
