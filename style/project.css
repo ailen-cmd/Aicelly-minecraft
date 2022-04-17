@@ -134,6 +134,16 @@
     border-bottom: #11111e 4px solid;
 }
 
+.separatorw {
+    padding-bottom: 175px;
+    border-bottom: #81818e 4px solid;
+}
+
+.separatorw2 {
+    padding-bottom: 25px;
+    border-bottom: #81818e 4px solid;
+}
+
 .whatis__what {
     background-color: #e5e9fe;
     box-shadow: 0 0 10px #e5e9fe;
@@ -225,6 +235,11 @@ html {
     width: 600px;
 }
 
+.widers {
+    width: 350px;
+    background-color: #ffffff86;
+}
+
 .po0 {
     margin-right: 0;
 }
@@ -252,4 +267,20 @@ html {
     .whatis__text {
         max-width: 100%;
 }
+}
+
+.cen {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.ww {
+    max-width: 100%;
+}
+
+.wid {
+    display: flex;
+    justify-content: center;
 }

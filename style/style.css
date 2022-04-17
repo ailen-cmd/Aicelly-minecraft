@@ -260,7 +260,7 @@ textarea {
 }
 
 .logo__img {
-    max-width: 48px;
+    max-width: 128px;
 }
 
 .logo__add {
@@ -488,6 +488,10 @@ textarea {
 
 .pf0 {
     background: linear-gradient(to left,#11111ece,transparent),url(../img/port.jpg) no-repeat center / cover;
+}
+
+.pf0in {
+    background: linear-gradient(to left,#11111ece,transparent),url(../img/in2.png) no-repeat center / cover;
 }
 
 .pf1 {
