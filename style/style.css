@@ -46,6 +46,11 @@ textarea {
     font-size: 58px;
 }
 
+.aiH2 {
+    color: #d8dee9;
+    font-size: 32px;
+}
+
 .aiArticle {
     margin-top: 25px;
     background-color: #11111e;
@@ -139,7 +144,7 @@ textarea {
     background-color: #31313e;
     color: #e5e9fe;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 20px;
     text-align: center;
     box-shadow: 0 0 10px #31313e;
     border-radius: 15px;
@@ -228,7 +233,7 @@ textarea {
 }
 
 .aiScamText {
-    color: #31313e;
+    color: #81818e;
 }
 
 .navigationHeader {
@@ -492,14 +497,25 @@ textarea {
 
 .pf0in {
     background: linear-gradient(to left,#11111ece,transparent),url(../img/in2.png) no-repeat center / cover;
+    margin-top: 75px;
 }
 
 .pf1 {
     background: linear-gradient(to left,#11111ece,transparent),url(../img/port2.jpg) no-repeat center / cover;
 }
 
+.pf1in {
+    background: linear-gradient(to left,#11111ece,transparent),url(../img/ind.png) no-repeat center / cover;
+    margin-top: 75px;
+}
+
 .pf2 {
     background: linear-gradient(to left,#11111ece,transparent),url(../img/port3.jpeg) no-repeat center / cover;
+}
+
+.pf2in {
+    background: linear-gradient(to left,#11111ece,transparent),url(../img/pp9.png) no-repeat center / cover;
+    margin-top: 75px;
 }
 
 .pfa {
@@ -852,4 +868,35 @@ textarea {
     flex-direction: row;
     justify-content: flex-start;
     align-self: center;
+}
+
+
+@media (max-width: 800px) {
+    .aiH1 {
+        font-size: 35px;    
+}
+}
+
+@media (max-width: 800px) {
+    .portfolio__discription {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;   
+}
+}
+
+@media (max-width: 800px) {
+    .portfolio__discription__text {
+        width: 90%;  
+        height: 200px;
+}
+}
+
+@media (max-width: 800px) {
+    .portfolio__article, .portfolio__articlebox, .aiArticle, .portfolio__discription__text {
+        margin-left: 0;
+        padding-left: 0;  
+        margin-right: 0;
+        padding-right: 0;
+}
 }

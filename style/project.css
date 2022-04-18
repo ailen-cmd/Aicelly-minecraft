@@ -284,3 +284,63 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.mods {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkm {
+    display: flex;
+    justify-self: flex-end;
+    padding-top: 25px;
+}
+
+.cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media (max-width: 1600px) {
+    .galp, .gal {
+        padding-right: 0;        
+}
+}
+
+.galp {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.gald {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+      img {
+          max-width: 60vw;
+      }
+}
+
+@media (max-width: 800px) {
+    .ptext {
+        font-size: 20px;
+    }
+}
